@@ -1,0 +1,23 @@
+tmp
+*.rdb
+.env
+.sass-cache
+.DS_Store
+_site
+.jekyll-cache
+.git
+.vscode
+.obsidian
+
+# OS X
+.history
+.DS_Store
+
+# IntelliJ
+.idea_modules
+*.iml
+*.iws
+*.ipr
+.idea/
+build/
+*/build/%
