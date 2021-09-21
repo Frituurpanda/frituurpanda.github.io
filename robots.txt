@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: jessu.run/sitemap.xml
+Sitemap: /sitemap.xml

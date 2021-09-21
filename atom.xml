@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>jessu.run</title>
- <link href="jessu.run/atom.xml" rel="self"/>
- <link href="jessu.run/"/>
- <updated>2021-09-21T10:53:06+02:00</updated>
- <id>jessu.run</id>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2021-09-21T11:03:29+02:00</updated>
+ <id></id>
  <author>
    <name>Frituurpanda</name>
    <email>carlojessurun@email.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>First post launched with Github Pages</title>
-   <link href="jessu.run/2021/09/21/first-entry"/>
+   <link href="/2021/09/21/first-entry"/>
    <updated>2021-09-21T00:00:00+02:00</updated>
-   <id>jessu.run/2021/09/21/first-entry</id>
+   <id>/2021/09/21/first-entry</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet eget velit nec pulvinar. Suspendisse tempus lectus quis orci aliquet feugiat. Aenean sed cursus odio. Proin et tincidunt leo. Pellentesque nec gravida leo. Vestibulum euismod urna augue, at vehicula nisl tristique ut. Suspendisse consectetur enim ac justo volutpat fermentum.&lt;/p&gt;
 
 &lt;p&gt;Fusce feugiat congue turpis, a convallis ipsum consequat vel. Nullam ornare ornare lectus, in congue metus fringilla sed. Sed ut sapien vitae tellus rutrum euismod. Vivamus sed suscipit felis, eu pellentesque augue. Nunc magna ex, pharetra in suscipit quis, dictum nec metus. Sed in sapien et turpis consectetur mollis. Quisque ut mauris est. Nulla gravida tincidunt lacus gravida mattis. Aliquam faucibus mattis nisi, pulvinar scelerisque odio. Suspendisse iaculis tortor ut dapibus consequat. Suspendisse potenti. Aenean blandit erat eget porttitor pulvinar. Nulla molestie, lectus at pharetra fermentum, mauris ex gravida dolor, ac lacinia neque magna nec felis. Vestibulum consequat ipsum vel orci suscipit, ac ultrices justo gravida.&lt;/p&gt;
