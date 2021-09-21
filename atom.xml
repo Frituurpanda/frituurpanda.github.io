@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Gesko</title>
+ <title>jessu.run</title>
  <link href="jessu.run/atom.xml" rel="self"/>
  <link href="jessu.run/"/>
- <updated>2021-09-21T10:41:35+02:00</updated>
+ <updated>2021-09-21T10:53:06+02:00</updated>
  <id>jessu.run</id>
  <author>
    <name>Frituurpanda</name>
