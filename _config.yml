@@ -1,90 +1,80 @@
-site: jessu.run
-title: jessu.run
-greetings: Hi 👋
-description: >+
-  I'm a Senior Infrastructure Security Engineer focussed on infrastructure engineering, ops, 
-  and software security. I have strong experience both contributing to and leading projects spanning full stack 
-  development, application infrastructure, security engineering, and observability. 
-
-  If your team is looking for an additional experienced Platform Security Engineer, Infrastructure Security Engineer, 
-  or Security SRE to scale and secure your services please feel free to reach out via LinkedIn. If you want to know 
-  more about the stuff I'm working on, let's chat!
+# Site settings
+title: StackSecurity
+description: >- 
+  StackSecurity - Staff Security Engineer @ TRM Labs
 lang: en-US
-timezone: Europe/Rome
-repo: https://github.com/Frituurpanda/frituurpanda.github.io # site repo [optional]
-data-theme: dark # default theme "dark" | "light"
+timezone: Europe/Amsterdam
+repo: https://github.com/Frituurpanda/frituurpanda.github.io
+mode: dark
 
+# Profile settings
 author:
-  name: Frituurpanda
-  bio: Security engineer with a lengthy background in Software Engineering
-  userpicture:
-  username: Frituurpanda # general username
-  github: Frituurpanda # github username
-  email: carlojessurun@email.com # email adress
+  name: StackSecurity
+  bio: >- # tell to the world
+    Hello everyone 👋,
+    I'm Carlo, and I'm a Staff Security Engineer @ TRM Labs. I'm focussed on the intersection between cloud native security and scaling infrastructure into massive systems. 
+    In my spare time I do a lot of sport climbing, bouldering and running. I'm using this space to gather my thoughts and share some knowledge on my daily struggles. 
 
-# Font Settings
-googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
+  username: Frituurpanda
+  github: Frituurpanda
+  twitter: Frituurpanda
+  avatar: /assets/img/avatar.jpg
 
 # URL settings
-url: "" # Domain Name of host. [username].github.io for github pages
-baseurl: "" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
-permalink: pretty
+url: "https://jessu.run"
+baseurl:
+permalink: /:title/
+google_analytics: UA-130203748-1
 
-# LOCAL DEV SETTINGS
-#url: "http://localhost:4000" #
-#baseurl: "" #
-
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-exclude:
-  - .jekyll-cache
-  - .obsidian
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-  - CONTRIBUTING.md
-
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-relative-links
-
+# Collection setting
 collections:
-  pages:
-    output: true
-    permalink: /:name
   posts:
     output: true
-    permalink: /:year/:month/:day/:slug
 
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
 defaults:
   - scope:
       path: ""
     values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+      layout: post
+      comments: false
 
-relative_links:
-  enabled: true
-  collections: false
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 5
+
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - CHANGELOG.md
+  - node_modules
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-postfiles
